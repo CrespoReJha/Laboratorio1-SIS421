@@ -32,7 +32,7 @@ Dense: Otra capa con 256 neuronas y activación ReLU.
 Dense: Capa de salida con 5 neuronas, correspondiente a las 5 clases.
 Softmax: Función de activación utilizada para obtener probabilidades de clase.
 4. Entrenamiento del Modelo
-Función de pérdida: Se utilizó la entropía cruzada (Flux.crossentropy) para evaluar la pérdida.
+Función de pérdida: Se utilizó la cross entropy (Flux.crossentropy) para evaluar la pérdida.
 Optimizador: El optimizador utilizado fue ADAM con una tasa de aprendizaje inicial de 0.001.
 El entrenamiento se realizó durante 20 épocas, y la tasa de aprendizaje se redujo cada 5 épocas. Los resultados obtenidos fueron:
 La pérdida de entrenamiento bajó de 1.57 a 1.22.
